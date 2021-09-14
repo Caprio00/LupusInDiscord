@@ -1,0 +1,20 @@
+LupusBot:
+    Database:
+      ☐ Creare il database remoto di MongoDB.
+        ☐ Connettere il database con il bot.
+      ☐ Ideare e creare lo Schema per la partita.
+    Programmazione:
+      Creazione della partita:
+        ☐ Creare la partita mediante il comando !creategame.
+          ☐ Il comando deve inviare un messaggio alla quale chi vuole partecipare deve reagire con l'apposita reazione.
+            ☐ Man mano che qualcuno reagisce il bot aggiorna il messaggio inviato con il nome dei partecipanti.
+          ☐ Arrivati ad una soglia minima (specificata nella documentazione), il proprietario della partita la starta con !startgame.
+      Generazione dei ruoli:
+        ☐ 
+    File Ausiliari:
+      ☐ 
+    Utility:
+      ☐ Setup di Prettier nel progetto.
+      ☐ Setup di EsLint nel progetto.
+    Documentazione:
+      ☐ 

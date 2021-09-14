@@ -1,0 +1,43 @@
+{
+  "name": "lupusindiscord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "start:local": "npm run build && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caprio00/LupusInDiscord.git"
+  },
+  "author": {
+    "name": "Caprio Mattia",
+    "email": "capriomattia@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Antonio Sarro",
+      "email": "sarroantonio1999@gmail.com",
+      "url": "https://antoniosarro.dev"
+    }
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Caprio00/LupusInDiscord/issues"
+  },
+  "homepage": "https://github.com/Caprio00/LupusInDiscord#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
